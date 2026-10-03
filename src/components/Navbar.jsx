@@ -1,12 +1,18 @@
 function Navbar() {
   return (
-    <nav>
-      <div>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+    <nav className="navbar">
+      <div className="navbar-container">
+        <a href="#home" className="navbar-logo">
+          Sruthika A B
+        </a>
+
+        <div className="navbar-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </div>
       </div>
     </nav>
   );

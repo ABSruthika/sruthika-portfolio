@@ -22,6 +22,15 @@ function Hero() {
           <a href="#contact" className="btn btn-secondary">
             Contact Me
           </a>
+
+          <a
+            href="/resume/SRUTHIKA_A_B_RESUME_.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary"
+          >
+            View Resume
+          </a>
         </div>
       </div>
     </section>

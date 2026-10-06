@@ -37,7 +37,7 @@ function Projects() {
 
               <div className="project-links">
                 <a
-                  href="https://github.com/ABSruthika"
+                  href="https://www.github.com/ABSruthika/student-management"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -31,6 +31,14 @@ function Hero() {
           >
             View Resume
           </a>
+
+          <a
+            href="/resume/SRUTHIKA_A_B_RESUME_.pdf"
+            download
+            className="btn btn-secondary"
+          >
+            Download Resume
+          </a>
         </div>
       </div>
     </section>

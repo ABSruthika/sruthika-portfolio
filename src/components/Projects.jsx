@@ -46,6 +46,32 @@ function Projects() {
               </div>
             </div>
           </article>
+          <article className="project-card">
+            <div className="project-content">
+              <p className="project-type">APPLICATION DEVELOPMENT</p>
+
+              <h3>Case Management System</h3>
+
+              <p className="project-description">
+                An application developed using Appian to manage cases
+                through structured workflows and business processes.
+              </p>
+
+              <div className="project-tech">
+                <span>Appian</span>
+                <span>SAIL</span>
+                <span>Process Models</span>
+                <span>CDTs</span>
+              </div>
+
+              <ul className="project-features">
+                <li>Case creation and management</li>
+                <li>Workflow-based processing</li>
+                <li>Appian SAIL interfaces</li>
+                <li>Business process automation</li>
+              </ul>
+            </div>
+          </article>
         </div>
       </div>
     </section>

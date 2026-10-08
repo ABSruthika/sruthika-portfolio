@@ -40,6 +40,24 @@ function Hero() {
             Download Resume
           </a>
         </div>
+
+        <div className="hero-socials">
+          <a
+            href="https://github.com/ABSruthika"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/sruthika-balamurugan1015/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </div>
       </div>
     </section>
   );

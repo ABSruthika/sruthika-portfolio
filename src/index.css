@@ -403,3 +403,64 @@ footer {
 .hero-socials a:hover {
   color: #c084fc;
 }
+
+@media (max-width: 600px) {
+
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 70px 20px;
+  }
+
+  .hero-buttons {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .experience-date {
+    white-space: normal;
+  }
+
+  .experience-card {
+    padding: 22px;
+  }
+
+
+  .navbar {
+    padding: 16px 20px;
+  }
+
+  .navbar-container {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .navbar-links {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .navbar-links a {
+    font-size: 14px;
+  }
+
+  .contact-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+}

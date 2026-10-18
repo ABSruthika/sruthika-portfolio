@@ -5,15 +5,22 @@ const projects = [
     type: "FULL-STACK APPLICATION",
     title: "Student Management System",
     description:
-      "A full-stack student management application built with Spring Boot, React and MySQL, featuring secure authentication and role-based authorization.",
-    technologies: ["Java", "Spring Boot", "JWT", "React", "MySQL"],
-    features: [
-      "Student CRUD operations",
-      "JWT authentication",
-      "Role-based authorization",
-      "Input validation",
-      "Unit and security testing",
+      "A student management application built with Spring Boot, React, and MySQL, featuring secure authentication, role-based authorization, and student record management.",
+    technologies: [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "JWT",
+      "React",
+      "MySQL",
     ],
+
+    features: [
+      "Implemented student CRUD operations with JWT authentication and role-based access.",
+      "Built REST APIs using Spring Boot with MySQL database integration.",
+      "Added input validation and unit tests using JUnit and Mockito.",
+    ],
+
     links: [
       {
         label: "GitHub",
@@ -23,16 +30,42 @@ const projects = [
   },
   {
     type: "APPLICATION DEVELOPMENT",
-    title: "Case Management System",
+    title: "Travel Booking Application",
     description:
-      "An application developed using Appian to manage cases through structured workflows and business processes.",
-    technologies: ["Appian", "SAIL", "Process Models", "CDTs"],
-    features: [
-      "Case creation and management",
-      "Workflow-based processing",
-      "Appian SAIL interfaces",
-      "Business process automation",
+      "An Appian application designed to streamline travel booking workflows, including traveller requests, bulk bookings, and email-triggered booking processes.",
+    technologies: [
+      "Appian",
+      "SAIL",
+      "Process Models",
+      "Records",
     ],
+
+    features: [
+      "Designed traveller workflows and bulk travel booking processes.",
+      "Developed interactive Appian UI screens for booking operations.",
+      "Configured email-triggered booking flows and notification workflows.",
+    ],
+
+    links: [],
+  },
+  {
+    type: "APPLICATION DEVELOPMENT",
+    title: "Patient Management System",
+    description:
+      "An Appian application designed to support patient information management through structured intake, record viewing, and scheduling workflows.",
+    technologies: [
+      "Appian",
+      "SAIL",
+      "Process Models",
+      "Records",
+    ],
+
+    features: [
+      "Created patient intake workflows to capture patient information.",
+      "Implemented patient record viewing interfaces.",
+      "Designed scheduling workflows for appointment management.",
+    ],
+
     links: [],
   },
 ];
@@ -62,7 +95,9 @@ function Projects() {
         <div className="projects-carousel">
           <article className="project-card" aria-live="polite">
             <div className="project-content">
-              <p className="project-type">{currentProject.type}</p>
+              <p className="project-type">
+                {currentProject.type}
+              </p>
 
               <h3>{currentProject.title}</h3>
 
@@ -71,9 +106,13 @@ function Projects() {
               </p>
 
               <div className="project-tech">
-                {currentProject.technologies.map((technology) => (
-                  <span key={technology}>{technology}</span>
-                ))}
+                {currentProject.technologies.map(
+                  (technology) => (
+                    <span key={technology}>
+                      {technology}
+                    </span>
+                  )
+                )}
               </div>
 
               <ul className="project-features">
@@ -118,7 +157,9 @@ function Projects() {
                     }`}
                   onClick={() => setCurrentIndex(index)}
                   aria-label={`View project ${index + 1}: ${project.title}`}
-                  aria-current={index === currentIndex ? "true" : undefined}
+                  aria-current={
+                    index === currentIndex ? "true" : undefined
+                  }
                 />
               ))}
             </div>

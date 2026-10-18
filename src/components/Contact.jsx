@@ -1,20 +1,22 @@
+
 function Contact() {
   return (
     <section id="contact" className="section contact-section">
       <div className="section-container contact-container">
         <p className="section-label">CONTACT</p>
 
-        <h2>Let's build something together.</h2>
+        <h2>Let's build something meaningful.</h2>
 
         <p className="contact-description">
-          I'm open to opportunities in Java backend and full-stack
-          development. Feel free to connect with me through any of
-          the platforms below.
+          I'm looking for opportunities in Java backend
+          development where I can apply my problem-solving
+          skills, build reliable applications, and continue
+          growing as a software developer. Let's connect!
         </p>
 
         <div className="contact-links">
-          <a href="mailto:sruthika.balamurugan@gmail.com">
-            Email
+          <a href="mailto:sruthikaab@gmail.com">
+            Email Me →
           </a>
 
           <a
@@ -22,7 +24,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            LinkedIn →
           </a>
 
           <a
@@ -30,7 +32,7 @@ function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            GitHub →
           </a>
         </div>
       </div>

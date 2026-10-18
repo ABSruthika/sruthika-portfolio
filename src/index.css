@@ -166,15 +166,23 @@ a {
   margin-bottom: 32px;
 }
 
+
 .about-content {
-  max-width: 750px;
+  width: 100%;
+  max-width: 850px;
 }
 
 .about-content p {
   color: #94a3b8;
   font-size: 17px;
+  line-height: 1.8;
   margin-bottom: 20px;
 }
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
 
 .skills-grid {
   display: grid;

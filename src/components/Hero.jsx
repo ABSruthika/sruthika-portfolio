@@ -30,6 +30,15 @@ function Hero() {
 
           <a
             href="/resume/SRUTHIKA_A_B_RESUME_.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary"
+          >
+            View Resume ↗
+          </a>
+
+          <a
+            href="/resume/SRUTHIKA_A_B_RESUME_.pdf"
             download
             className="btn btn-secondary"
           >

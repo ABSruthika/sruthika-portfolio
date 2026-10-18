@@ -1,10 +1,11 @@
+
 function Experience() {
   return (
     <section id="experience" className="section">
       <div className="section-container">
         <p className="section-label">EXPERIENCE</p>
 
-        <h2>Professional experience.</h2>
+        <h2>My professional journey.</h2>
 
         <div className="experience-card">
           <div className="experience-header">
@@ -20,23 +21,28 @@ function Experience() {
 
           <ul className="experience-list">
             <li>
-              Worked on application development using the Appian
-              low-code platform.
+              Developed application components and business
+              workflows using the Appian low-code platform.
             </li>
 
             <li>
-              Developed workflows, business processes and
-              application components based on project requirements.
+              Built interactive SAIL interfaces and worked with
+              process models, records, and data types.
             </li>
 
             <li>
-              Worked with Appian records, process models, SAIL,
-              integrations and data-related components.
+              Explored integrations and application logic to
+              support business process requirements.
             </li>
 
             <li>
-              Gained experience in software development, testing
-              and working in an enterprise development environment.
+              Built proof-of-concept applications, including
+              travel booking and patient management solutions.
+            </li>
+
+            <li>
+              Strengthened problem-solving, application development,
+              and testing skills in an enterprise environment.
             </li>
           </ul>
         </div>
